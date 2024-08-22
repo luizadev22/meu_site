@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+}
+
+body{
+ background-color: rgb(0,0,0)
+}
+
+
+
+
+
+#voltar-topo{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;  
+    
+}
+#voltar-topo a img{
+    width: 60px;
+}
+
+
+
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin-bottom: 20px;
+}
+.social{
+    width: 20px;   
+}
+
+#contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.assinatura{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+   
+}
+
